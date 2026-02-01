@@ -2,7 +2,9 @@
 
 ## Links
 
-https://app.tomorrow.io/home
+* Website: https://app.tomorrow.io/home
+* Where is the data coming from: https://support.tomorrow.io/hc/en-us/articles/5188641901460-How-Tomorrow-io-Collects-and-Uses-Weather-Data
+* Talk to sales: https://www.tomorrow.io/lp/get-demo-resilience-5/
 
 ## Fabric Support
 
