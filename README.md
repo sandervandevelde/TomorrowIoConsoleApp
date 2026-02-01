@@ -1,10 +1,14 @@
 # Tomorrow.IO
 
-## Links
+## Introduction
 
-* Website: https://app.tomorrow.io/home
-* Where is the data coming from: https://support.tomorrow.io/hc/en-us/articles/5188641901460-How-Tomorrow-io-Collects-and-Uses-Weather-Data
-* Talk to sales: https://www.tomorrow.io/lp/get-demo-resilience-5/
+This website and related API offers various weather data streams, including realtime and forecast data.
+
+## Concerns
+
+- What are the costs?
+- Does this work worldwide, also in remote areas?
+- Uses an API in the fat URL for a GET. This is insecure. Is there a more secure way of getting data?
 
 ## Fabric Support
 
@@ -235,3 +239,8 @@ The Tomorrow IO interface is also applicable in an [Fabric Eventstream HTTP sour
 }
 ```
 
+## Links
+
+* Website: https://app.tomorrow.io/home
+* Where is the data coming from: https://support.tomorrow.io/hc/en-us/articles/5188641901460-How-Tomorrow-io-Collects-and-Uses-Weather-Data
+* Talk to sales: https://www.tomorrow.io/lp/get-demo-resilience-5/
