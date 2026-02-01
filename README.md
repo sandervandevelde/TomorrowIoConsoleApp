@@ -4,6 +4,10 @@
 
 https://app.tomorrow.io/home
 
+## Fabric Support
+
+The Tomorrow IO interface is also applicable in an [Fabric Eventstream HTTP source](images/eventstream-source.png)
+
 ## alternatives
 
 ### Azure Maps Weather via Fabric Eventstream
@@ -228,3 +232,4 @@ https://app.tomorrow.io/home
     "locationName": "HelmondWest"
 }
 ```
+
