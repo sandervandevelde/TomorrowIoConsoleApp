@@ -1,0 +1,35 @@
+{
+    "data": {
+        "time": "2026-02-01T14:57:00Z",
+        "values": {
+            "altimeterSetting": 1021.69,
+            "cloudBase": 16,
+            "cloudCeiling": null,
+            "cloudCover": 0,
+            "dewPoint": -18.7,
+            "freezingRainIntensity": 0,
+            "humidity": 65,
+            "precipitationProbability": 0,
+            "pressureSeaLevel": 1023.74,
+            "pressureSurfaceLevel": 1011.84,
+            "rainIntensity": 0,
+            "sleetIntensity": 0,
+            "snowIntensity": 0,
+            "temperature": -13.49,
+            "temperatureApparent": -21.9,
+            "uvHealthConcern": 0,
+            "uvIndex": 1,
+            "visibility": 16,
+            "weatherCode": 1000,
+            "windDirection": 333,
+            "windGust": 9.2,
+            "windSpeed": 5.2
+        }
+    },
+    "location": {
+        "lat": 43.653480529785156,
+        "lon": -79.3839340209961,
+        "name": "Toronto, Golden Horseshoe, Ontario, Canada",
+        "type": "administrative"
+    }
+}
