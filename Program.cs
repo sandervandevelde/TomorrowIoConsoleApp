@@ -21,12 +21,13 @@ namespace TomorrowIoConsoleApp
 
             //var options = new RestClientOptions($"https://api.tomorrow.io/v4/weather/history/recent?location=52.0,5.2&apikey={key}");
             //var options = new RestClientOptions($"https://api.tomorrow.io/v4/weather/history/recent?location=52.0,5.2&apikey={key}&timesteps=1h&timesteps=1d&units=metric");
-            var options = new RestClientOptions($"https://api.tomorrow.io/v4/weather/history/recent?location=32.16134029123959,-49.228548806929815&apikey={key}&timesteps=1h&timesteps=1d&units=metric");
+            var options = new RestClientOptions($"https://api.tomorrow.io/v4/weather/history/recent?location=32.16134029123959,-49.228548806929815&timesteps=1h&timesteps=1d&units=metric");
 
             var client = new RestClient(options);
             var request = new RestRequest("");
             request.AddHeader("accept-encoding", "deflate, gzip, br");
             request.AddHeader("accept", "application/json");
+            request.AddHeader("apikey", key);
             var response = await client.GetAsync(request);
 
             Console.WriteLine("{0}", response.Content);
